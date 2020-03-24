@@ -1,0 +1,25 @@
+{
+  "name": "corona-stat-scraper-kor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "routes/api.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JupiterFlow/corona-stat-scraper-kor.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JupiterFlow/corona-stat-scraper-kor/issues"
+  },
+  "homepage": "https://github.com/JupiterFlow/corona-stat-scraper-kor#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "request": "^2.88.2"
+  }
+}
