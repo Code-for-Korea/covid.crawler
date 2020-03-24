@@ -32,7 +32,7 @@ router.get('/', (req, res) => {
             // 열의 갯수만큼 반복 순회
             for (let column = 0; column < cells.length; column++) {
                 const hero = cells.eq(column).text();
-                cols.push(hero.replace(/[\{\}\[\]\s\/?.,;:|\)*~`!^\-+<>@\#$%&\\\=\(\'\"]/gi, ""));
+                cols.push(hero.replace(/[\{\}\[\]\s\/?,;:|\)*~`!^+<>@\#$%&\\\=\(\'\"]/gi, ""));
             }
             data.push(cols);
         }
