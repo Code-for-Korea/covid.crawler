@@ -52,9 +52,9 @@ router.get('/', (req, res) => {
             'type': [],
             'increment': [],
             'total': [],
+            'isolated': [],
             'dead': [],
             'rate': [],
-            'inspection': [],
             key: function (n) {
                 return this[Object.keys(this)[n]];
             }
