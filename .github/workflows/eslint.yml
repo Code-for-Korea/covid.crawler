@@ -1,0 +1,16 @@
+name: ESLint
+
+on: [
+  pull_request,
+  push
+]
+
+jobs:
+  eslint:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run linter
+        run: npm lint
